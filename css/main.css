@@ -5,7 +5,26 @@
     margin-bottom: 100px;
     margin-left: 500;
 }
-.sign_in {
-    border: 30px;
+.signin {
+    border-style:solid black;
     height: 30px;
+}
+.enteremail {
+    border-style: solid black;
+
+}
+.enterpassword {
+    border-style: solid black;
+}
+.continue {
+    border-style: solid black;
+    background-color: orange;
+}
+.newtoamazon {
+    border-bottom: solid black;
+    height: ;
+}
+.createacct {
+    border-style: solid black;
+    background-color: lightgray;
 }
