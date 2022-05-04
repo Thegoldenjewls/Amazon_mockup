@@ -1,23 +1,31 @@
+/* Illustrating centering, please comment out */
+/* Remember to use display: flex; if you use margin: auto; */
+
 .img_1 {
     height: 20px;
-    Width: 110px;
-    margin-top: 20;
-    margin-bottom: 100px;
+    Width: 100px;
+    margin-top: 20px;
+    margin-bottom: 50;
     margin-left: 500;
 }
+
 .signin {
-    border-style:solid black;
-    height: 30px;
+    border-style:solid;
+    border-width:1px;
+    height: 350px;
+    margin-left: 450;
+    margin-right: 450;  
 }
 .enteremail {
-    border-style: solid black;
-
+    border-style:solid;
+    border-width:1px;
 }
 .enterpassword {
     border-style: solid black;
 }
 .continue {
-    border-style: solid black;
+    border-style: solid;
+    border-width: 1px;
     background-color: orange;
 }
 .newtoamazon {
@@ -27,4 +35,8 @@
 .createacct {
     border-style: solid black;
     background-color: lightgray;
+}
+nav li{
+    display:inline;
+
 }
