@@ -14,38 +14,39 @@
     <div class="signin">
         <h2>Sign In</h2>
         <p>Email(phone or mobile accounts)</p>
-        <div class="enteremail">
-            <h4>Enter Email</h4>
-            <div>
-            </div class="password">
-            <p>Password</p>
-            <p>Forgot Password</p>
-            <div>
-            </div class="enterpassword">
-            <h4>Enter Password</h4>
-            <div>
-                <div class="continue">
-                    <h4>Continue</h4>
-                </div>
-            </div class="needhelp">
-            <h4>Need Help?</h4>
-            <div>
-            </div>
-            <div class="newtoamazon">
-                <h4>New to Amazon?</h4>
-            </div>
-            <Section class="creatacct">
-                <h4>Create Your Amazon Account</h4>
-                <div>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="">Condition of use</a>
-                        <li><a href="">Privacy Policy</a>
-                        <li><a href="">Help</a>
-                </nav>
+        <form action="/action_page.php">
+            <label for="entrmail">Enter Email</label>
+            <input type="text" id="entrmail" name="entr"><br><br>
+        </form>
+        <div class="password">
+        <h6>Password</h6>
+        <h6>Forgot Password</h6>
         </div>
-        <p>1996-2020, Amazon.com, inc or it's affiliates</p>
-        <div>
+        <form action="/action_page.php">
+            <label for="entrpass">Enter Password</label>
+            <input type="text" id="entrpass" name="entrpass"><br><br>
+        </form>
+
+        <div class="continue">
+            <button>Continue</button>
+        </div>
+        <div class="needhelp">
+        <h4>Need Help?</h4>
+        </div>
+    </div>    
+        <div class="newtoamazon">
+        <h4>New to Amazon?</h4>
+        </div>
+        <div class="creatacct">
+        <h4>Create Your Amazon Account</h4>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Condition of use</a>
+                <li><a href="">Privacy Policy</a>
+                <li><a href="">Help</a>
+        </nav>
+    <p>1996-2020, Amazon.com, inc or it's affiliates</p>
 </body>
+
 </html>
